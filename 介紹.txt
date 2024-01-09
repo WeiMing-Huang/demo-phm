@@ -1,0 +1,32 @@
+資料夾
+    dataset:實驗用的資料集，主要是用CMAPSSData這個
+    plot:存一些論文裡面用到的圖片
+    savemodel:存模型參數的地方
+    ssl_result:半監督式比較方法的實驗結果
+
+python檔案
+    augmentation:做time series data augmentation的公式
+
+    compare開頭的:論文的比較模型們的架構
+        attention bi_lstm
+        double attention
+        vision transformer
+        resnet
+        lstm
+        gru
+
+    main_compare開頭:實際跑論文的比較模型們
+
+    main_proposed開頭:實際跑我的論文提出的模型，結尾有ab是用來跑ablation study的實驗，結尾有shap是用來畫shap的變數重要度圖
+
+    proposed_model開頭:我的論文提出的模型架構，結尾有ab是用來跑ablation study的實驗
+
+    scheduler:方便一次跑多個實驗
+
+    simsiam開頭:self supervised learning裡面simsiam架構的code，跟proposed_model一起用就是提出的整個模型
+
+    ssl開頭:一些半監督式的比較方法的code
+
+    utils:一些前處理的小工具
+
+
